@@ -44,7 +44,7 @@ variable "apr" {
     cluster_protocol            = "http"
     worker_service_class_path   = "cloud/apprun/dedicated/worker/1vcpu_2gb"
     lb_service_class_path       = "cloud/apprun/dedicated/lb/1vcpu_2gb_1"
-    sp_id                       = "113800472940"
+    sp_id                       = ""
     wk_min_nodes                = "1"
     wk_max_nodes                = "2"
     wk_prv1_ip_s                = "192.168.0.20"

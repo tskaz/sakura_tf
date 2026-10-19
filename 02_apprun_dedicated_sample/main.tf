@@ -16,7 +16,7 @@ provider "sakura" {
   # the SakuraCloud Provider can be found here:
   # https://docs.usacloud.jp/terraform/provider/
 
-  profile = "ytv24336_support1_"
+  # profile = ""
 }
 
 module "label" {
